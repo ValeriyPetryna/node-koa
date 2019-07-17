@@ -1,5 +1,5 @@
-exports.homePage = async (ctx) => {
-    await ctx.render('index', {
-        username: 'John Smith'
+exports.mainPage = async (ctx) => {
+    await ctx.render('base', {
+        title: 'Main page'
     });
 };

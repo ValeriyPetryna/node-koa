@@ -3,6 +3,6 @@ const ctrl = require('./controllers');
 
 const router = new Router();
 
-router.get('home', ctrl.homePage);
+router.get('main', ctrl.mainPage);
 
 module.exports = router;

@@ -25,14 +25,19 @@
     "eslint-plugin-import": "^2.18.0"
   },
   "dependencies": {
+    "config": "^3.2.2",
     "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-context-validator": "^0.4.1",
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "koa-views": "^6.2.0",
+    "mongoose": "^5.6.7",
     "nunjucks": "^3.2.0"
   },
   "engines": {
-    "node":"10.16.0",
+    "node": "10.16.0",
     "npm": "6.9.0"
-  } 
+  }
 }
